@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset=UTF-8>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<script src="JS/reponse.js"></script>
+		<title>Questionnaire sur Mario</title>
+	</head>
+	
+	<body>
+		<h2>Questionnaire sur Mario</h2>
+		
+		<form action="action.php" method="post">
+			<fieldset><legend>Question 1</legend></br>
+				<label class="ma_classe"><b>Quel était le premier nom de Mario ?</b></br></br></label>
+					<label for="réponse1">Plumbman</label>
+					<input name="rp1" id="q1r1" type="radio" value="reponse1" /></br></br>
+					<label for="réponse2">Jumpman</label>
+					<input name="rp1" id="q1r2" type="radio" value="reponse2" /></br></br>
+					<label for="réponse3">Superman</label>
+					<input name="rp1" id="q1r3" type="radio" value="reponse3" /></br></br>
+			</fieldset>
+			
+			<fieldset><legend>Question 2</legend></br>
+				<label class="ma_classe"><b>Dans combien de jeux, Mario apparaît-il ?</b></br></br></label>
+					<label for="réponse1">136</label>
+					<input name="rp2" id="q2r1" type="radio" value="reponse1" /></br></br>
+					<label for="réponse2">187</label>
+					<input name="rp2" id="q2r2" type="radio" value="reponse2" /></br></br>
+					<label for="réponse3">235</label>
+					<input name="rp2" id="q2r3" type="radio" value="reponse3" /></br></br>
+			</fieldset>
+			
+			<fieldset><legend>Question 3</legend></br>
+				<label class="ma_classe"><b>Quel est le nom du premier film Mario ?</b></br></br></label>
+					<label for="réponse1">SUPER MARIO BROS</label>
+					<input name="rp3" id="q3r1" type="radio" value="reponse1" /></br></br>
+					<label for="réponse2">MARIO BROS</label>
+					<input name="rp3" id="q3r2" type="radio" value="reponse2" /></br></br>
+					<label for="réponse3">SUPER MARIO BROS. LE FILM</label>
+					<input name="rp3" id="q3r3" type="radio" value="reponse3" /></br></br>
+			</fieldset>
+			
+			<button id="commande" onclick="Recap ()">Récapitulatif</button>
+			<button id="raz" type="reset">Effacer</button>
+			
+		</form></br></br></br></br></br></br>
+		<footer>
+			<p>by NathOof</p>
+		</footer>
+	</body>
+</html>

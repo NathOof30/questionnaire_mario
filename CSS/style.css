@@ -1,0 +1,77 @@
+body{
+	background-color:#34495E;
+	margin: 0px;
+	padding: 8px;
+
+}
+
+h2{
+	color: #F1C40F;
+	font-family: Helvetica;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+form{
+	background-color:#5D6D7E;
+	padding:10px;
+	width:40%;
+	margin: auto;
+	font-family: Helvetica;
+	border-radius: 15px;
+
+
+}
+
+fieldset{
+	padding:0 20px 20px 20px;
+	margin-bottom:10px;
+	border:1px solid #F1C40F;
+	border-radius: 10px;
+}
+
+legend{
+	color:#F1C40F;
+	font-weight:bold;
+	font-family: Helvetica;
+}
+
+input, textarea{
+	border:1px solid #F5C5C5;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+	border-radius:5px;
+	margin-right:20px;
+}
+
+input{
+	width:100px;
+}
+
+textarea{
+	width:300px;
+}
+
+input[type=radio]{
+	background-color:transparent;
+	border:none;
+	width:12px;
+}
+
+button{
+	background-color:#ECD6A7;
+}
+
+select{
+	border:1px solid #F5C5C5;
+}
+
+label{
+	color:#000000;
+}
+
+footer{
+	width:100%;
+	text-align: center;
+}
